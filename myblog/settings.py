@@ -119,12 +119,12 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.qq.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = '975098994@qq.com'
-EMAIL_HOST_PASSWORD = 'mlnbpocxmxedbbei'
-DEFAULT_FROM_EMAIL = '975098994@qq.com'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.qq.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = 'mlnbpocxmxedbbei'
+# DEFAULT_FROM_EMAIL = ''
 
 LOGIN_URL = '/auth/login'
